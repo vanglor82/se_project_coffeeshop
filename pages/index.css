@@ -81,6 +81,8 @@
   left: -50px;
   position: relative;
   background-image: url(../images/logo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav__links {
@@ -107,12 +109,13 @@
   background-color: #0a2750;
   padding: 100px 80px 215px;
   background-image: url(../images/background_recipes.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .recipes__title {
   max-width: 580px;
   margin: 0 0 24px;
-  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -140,13 +143,98 @@
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
-  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
 }
 
-iframe {
+.recipes__iframe {
   border-style: none;
+}
+
+.reservation {
+  padding: 100px 0 120px;
+  font-style: normal;
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reservation__title {
+  margin: 0 0 80px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form {
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form {
+  max-width: 385px;
+}
+
+.form__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 20px;
+  margin: 8px 0 32px;
+  border: 1px solid #838383;
+  border-radius: 4px;
+}
+
+.form__button {
+  border-radius: 4px;
+  width: 100%;
+  border: none;
+  padding: 20px 0;
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #1878dc;
+  color: #fff;
+}
+
+.form__button:hover {
+  background-color: #3f96f3;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+  background-color: #1878dc;
+  background-image: url(../images/check.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
